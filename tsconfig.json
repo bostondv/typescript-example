@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "strict": true,
+    "target": "esnext",
+    "allowJs": true,
+    "isolatedModules": true,
+    "outDir": "dist",
+    "declaration": true,
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/__tests__/**",
+    "**/__mocks__/**",
+    "**/*.story.js",
+    "**/*.story.tsx",
+    "**/*.test.js",
+    "**/*.test.ts",
+    "**/*.test.tsx",
+  ]
+}
