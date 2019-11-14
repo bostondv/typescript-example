@@ -6,7 +6,7 @@ type AppProps = {};
 const App: React.FunctionComponent<AppProps> = () => {
   return (
     <div>
-      <Button>Hello, World!</Button>
+      <Button config={{ foo: { bar: "baz" } }}>Hello, World!</Button>
     </div>
   );
 };
